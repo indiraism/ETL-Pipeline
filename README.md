@@ -24,7 +24,7 @@ Suggested:
 
 ## Feature
 
-- _Extract_: Mengambil informasi produk dari _website_ dengan memanfaatkan pustaka _requests_ dan 'BeautifulSoup' untuk _scraping_ data.
+- _Extract_: Mengambil informasi produk dari _website_ dengan memanfaatkan pustaka _requests_ dan `BeautifulSoup` untuk _scraping_ data.
 - _Transform_: Melakukan pembersihan dan penataan ulang data menggunakan pandas, agar siap digunakan lebih lanjut.
 - _Load_: Menyimpan data yang telah diproses ke dalam format CSV (goods.csv) dan juga mengunggahnya ke basis data PostgreSQL.
 
@@ -32,7 +32,7 @@ Suggested:
 # How to Run the Project
 
 🛠 Menjalankan Skrip _ETL Pipeline_
-- Pastikan semua _library_ yang dibutuhkan seperti _requests, beautifulsoup4, pandas, dan psycopg2_ sudah terpasang di lingkungan Python Anda.
+- Pastikan semua _library_ yang dibutuhkan seperti `requests`, `beautifulsoup4`, `pandas`, dan `psycopg2` sudah terpasang di lingkungan Python Anda.
 - Buka terminal di folder proyek, lalu jalankan perintah:
 
 ```bash
