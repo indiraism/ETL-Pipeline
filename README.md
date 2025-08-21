@@ -41,7 +41,7 @@ python main.py
 
 ✅ Menjalankan _Unit Test_
 - Pastikan modul _unittest_ tersedia (modul ini biasanya sudah termasuk dalam instalasi Python standar).
-- Untuk menjalankan semua test, gunakan perintah berikut di terminal:
+- Untuk menjalankan semua _test_, gunakan perintah berikut di terminal:
 
 ```bash
 python -m unittest discover tests
@@ -54,7 +54,7 @@ python -m unittest discover tests
 pip install coverage
 ```
 
-- Jalankan pengujian dan lihat laporan cakupan kode dengan perintah:
+- Jalankan _test_ dan lihat laporan cakupan kode dengan perintah:
 
 ```bash
 coverage run -m unittest discover tests
